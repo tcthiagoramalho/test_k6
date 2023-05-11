@@ -1,0 +1,21 @@
+{
+  "name": "poc_ci_k6",
+  "version": "1.0.0",
+  "description": "POC of CI for K6  ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Ramalho",
+  "license": "ISC",
+  "dependencies": {
+    "k6": "^0.0.0"
+  },
+  "devDependencies": {
+    "k6-html-reporter": "^1.0.5",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "2.7.1"
+  }
+}
